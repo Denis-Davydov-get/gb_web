@@ -1,6 +1,6 @@
-function greeting(YourName){
-    let message = 'Привет, ' + YourName;
+function greeting(yourName){
+    let message = 'Привет, ' + yourName;
     alert(message);
 }
-let introduceYourself = prompt("Как вас зовут?");
+const introduceYourself = prompt("Как вас зовут?");
 greeting(introduceYourself);
